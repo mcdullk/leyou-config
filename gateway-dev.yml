@@ -28,6 +28,7 @@ zuul:
     auth-service: /auth/** #授权中心微服务
     cart-service: /cart/** #购物车微服务
     order-service: /** #订单微服务
+    leyou-sidecar: /** # sidecar 服务
     seckill-service: /seckill/** #秒杀微服务
     comments-service: /review/** #评论微服务
   ignored-services:
